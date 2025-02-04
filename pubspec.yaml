@@ -1,0 +1,32 @@
+name: app_365
+description: "ToDo App"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  intl: ^0.18.1
+  flutter_svg: ^2.0.9
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Iosevka
+      fonts:
+        - asset: lib/assets/fonts/Iosevka-Regular.ttf
+#        - asset: assets/fonts/YourFont-Bold.ttf
+#          weight: 700
+#        - asset: assets/fonts/YourFont-Italic.ttf
+#          style: italic

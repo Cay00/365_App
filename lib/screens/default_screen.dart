@@ -20,7 +20,7 @@ class _HomeScreenState extends State<HomeScreen> {
   final List<Widget> _screens = [
     const TodoScreen(),
     const StatsScreen(),
-    const StatsScreen(),
+    const ProfileScreen(),
     const ProfileScreen(),
   ];
 
